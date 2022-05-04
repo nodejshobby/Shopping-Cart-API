@@ -35,3 +35,5 @@ npm run start (production)
 ## Check the manual documentation of this api using swagger specification here
 https://shopexity.herokuapp.com/api-docs
 
+## Tech stacks used for building this api
+Redis, JWT, MongoDb and Nodejs
