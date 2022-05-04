@@ -32,3 +32,6 @@ REFRESH_TOKEN_SECRET = 0245794a9e5e4be22f3yfaca6156e8c203b31f3f092
 npm run dev  (locally)
 npm run start (production)
 ```
+## Check the manual documentation of this api using swagger specification here
+https://shopexity.herokuapp.com/api-docs
+
