@@ -108,10 +108,9 @@ const removeItem = async (req, res) => {
 
     const resp = await cartRedis.removeItem(userId, id);
     const results = {};
-    if (resp)
-      return res
-        .status(successRequest.code)
-        .json(success(successRequest.message, results, successRequest.code));
+    return res
+      .status(successRequest.code)
+      .json(success(successRequest.message, results, successRequest.code));
   } catch (err) {
     parseError(err);
   }

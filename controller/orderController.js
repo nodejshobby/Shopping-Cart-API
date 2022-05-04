@@ -83,7 +83,7 @@ const getSingleOrder = async (req, res) => {
     return res
       .status(successRequest.code)
       .json(success(successRequest.message, results, successRequest.code));
-  } catch (error) {
+  } catch (err) {
     parseError(err);
     return res
       .status(serverError.code)

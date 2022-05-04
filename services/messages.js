@@ -11,6 +11,15 @@ const messages = {
     length: "Enter a password of six minimum characters",
     match: "Enter matched passwords",
   },
+  productName: {
+    type: "Enter valid product name",
+  },
+  productImage: {
+    type: "Enter valid product image link",
+  },
+  productPrice: {
+    type: "Enter valid product price",
+  },
 };
 
 module.exports = messages;

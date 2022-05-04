@@ -31,10 +31,10 @@ const isVerifyAuthToken = require("../middleware/verifyAuthToken");
  *            results:
  *                type: Object
  *                description: Results of the response
- *                properties:
+ *                schema:
  *                    data:
- *                      schema:
- *                        $ref: '#components/schemas/resResultData'
+ *                      type: Object
+ *                      required: true
  *
  *       User:
  *          type: Object
@@ -51,10 +51,6 @@ const isVerifyAuthToken = require("../middleware/verifyAuthToken");
  *          example:
  *              username: kolade246
  *              password: kolawole
- *
- *       resResultData:
- *          type: Object
- *          required: true
  */
 
 /**
