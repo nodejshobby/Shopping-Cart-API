@@ -24,10 +24,11 @@ REFRESH_TOKEN_SECRET = 0245794a9e5e4be22f3yfaca6156e8c203b31f3f092
 
 ```
 
-### Fill the details as per your configuration
+### Fill the details above as per your configuration
 
 ## Run the application
 
-```npm run dev  (locally)
-   npm run start (production)
+```
+npm run dev  (locally)
+npm run start (production)
 ```
